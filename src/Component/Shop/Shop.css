@@ -1,9 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .shop-container{
     display: flex;
 }
 .product-container{
-    width: 70%;
+    width: 80%;
     margin-left: 80px;
     margin-right: 10px;
     border-right: 2px solid lightgray;
+}
+.cart-container{
+    width: 20%;
+    
+}
+.summary{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.item{
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.confirm{
+    margin: 10px 80px;
+    width: 200px;
+    height: 30px;
+    background-color: goldenrod;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
 }
